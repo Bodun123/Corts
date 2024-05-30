@@ -1,0 +1,110 @@
+
+nav {
+    background-color: #333; /* Background color of the navigation bar */
+    padding: 10px 0; /* Padding for top and bottom */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center-align the navigation links */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px; /* Add some space between the navigation items */
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1920px) {
+    .title {
+        font-family: arial;
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .scl {
+        display: inline-block;
+        justify-content: center;
+        margin: 60px 0 0 40px;
+    }
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5 {
+        width: 150px;
+        height: 150px;
+    }
+    .img1:hover {
+        transition: 1.2s;
+        background-color: #cd486b;
+    }
+    .img2:hover {
+        transition: 1.2s;
+        background-color: #00BFFF;
+    }
+    .img3:hover {
+        transition: 1.2s;
+        background-color: #FF0000;
+    }
+    .img4:hover {
+        transition: 1.2s;
+        background-color: #3b5998;
+    }
+    .img5:hover {
+        transition: 1.2s;
+        background-color: #59267c;
+    }
+    .phone-title {
+        font-size: 24px;
+        font-family: arial;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .num {
+        text-decoration: none;
+        color: black;
+    }
+    .num:hover {
+        transition: 1.2s;
+        color: darkred;
+    }
+    .phone-title2 {
+        font-family: arial;
+        font-size: 24px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .adrs-title {
+        font-family: arial;
+        font-size: 20px;
+        margin-top: 100px;
+        text-align: left;
+        margin-left: 100px;
+    }
+    .adrs-text {
+        font-family: arial;
+        font-size: 16px;
+        margin-top: 20px;
+        text-align: left;
+        margin-left: 40px;
+        max-width: 440px;
+    }
+    .adrs-card {
+        float: left;
+        margin: 0 20px 40px 0;
+    }
+}

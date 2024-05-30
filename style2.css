@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen and (min-width: 576px) and (max-width: 1920px) {
+.navigation {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.navigation li {
+	margin-right: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header {
+	background-image: url(media/board.png);
+	width: 100%;
+	position: fixed;
+	transition: all .5s;
+	z-index: 1;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+.header.active {
+	background: black;
+	padding: 5px 0;
+}
+
+.navigation a {
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+}
+}
+.navigation a:hover {
+	transition: 1.2s;
+	color: darkred;
+}
+@media only screen and (min-width: 576px) and (max-width: 1920px) {
+.title {
+	text-align: center;
+	font-family: arial;
+	font-size: 24px;
+	margin-top: 30px;
+}
+
+.section1 {
+	display: flex;
+	justify-content: center;
+}
+
+.left-images1 {
+	margin-top: 50px;
+}
+
+.right-images1 {
+	margin-top: 50px;
+}
+
+.images-border-indent1 {
+	margin-top: 30px;
+}
+
+.section2 {
+	display: flex;
+	justify-content: center;
+}
+
+.left-images2 {
+	margin-top: 50px;
+}
+
+.right-images2 {
+	margin-top: 50px;
+}
+
+.images-border-indent2 {
+	margin-top: 30px;
+}
+}

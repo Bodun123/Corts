@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Корти</title>
+</head>
+<body>
+<div class="header">
+	<div class="container">
+		<div class="header-line">
+			<div class="navigation">
+				<ul>
+					<li><a href="Головна.html" target="_blank">Головна</a></li>
+					<li><a href="Корти.html" target="_blank">Корти</a></li>
+					<li><a href="Про нас.html" target="_blank">Про нас</a></li>
+					<li><a href="Контакти.html" target="_blank">Контакти</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	window.onscroll = function() {
+		scrollFunction()
+	} 
+	function scrollFunction() {
+		let scrollPos = 200;
+		let header = document.getElementById('header')
+		if(document.body.scrollTop > scrollPos || document.documentElement.scrollTop > scrollPos) {
+			header.classlist.add('active');
+		} else {
+			header.classlist.remove('active')
+		}
+	}
+</script>
+
+<br>
+
+<section>
+	<div class="title">
+		<h3>Наша місія - навчити вас грати!</h3>
+	</div>
+</section>
+	<section class="section1">
+		<div class="first-text">
+			<div class="text1">
+				<p><span>Теніс</span> — четвертий за популярністю вид спорту у світі. Серену Вільямс, Еліну Світоліну і Роджера Федерера знають люди в різних куточках планети. При цьому деякі обирають теніс як активне хобі. Якщо біг і йога вас вже не дивують, можливо, вам пора вийти на корт.</p>
+			</div>
+			<div class="text2">
+				<p><span>Чудова фізична форма</span><br>Тренування комплексно впливають на всі групи м'язів, що дозволяє гармонійно розвивати м'язовий корсет тенісиста.</p>
+			</div>
+		</div>
+		<div class="image1">
+			<img src="media/1.png" id="image1">
+		</div>
+	</section>
+
+	<section class="section2">
+		<div class="image2">
+			<img src="media/2.png" id="image2">
+		</div>
+		<div class="second-text">
+			<div class="text3">
+				<p><span>Низька травматичність</span><br>Зазвичай професійний спорт є досить травматичним, проте великий теніс вважають одним із найбільш безпечних видів спорту. Звісно, це не відміняє того, що потрібно дотримуватися усіх правил і рекомендацій.</p>
+			</div>
+			<div class="text4">
+				<p><span>Ясне мислення</span><br>У процесі тренувань і змагань тенісист застосовує різні стратегії, щоб досягти перемоги. При цьому рішення він приймає фактично миттєво, передбачаючи наміри суперника.</p>
+			</div>
+			<div class="text5">
+				<p><span>Доступність для всіх</span><br>Вікові обмеження: 4+</p>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

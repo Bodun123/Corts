@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<title>Корти</title>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="header-line">
+				<div class="navigation">
+					<ul>
+						<li><a href="Головна.html" target="_blank">Головна</a></li>
+						<li><a href="Корти.html" target="_blank">Корти</a></li>
+						<li><a href="Про нас.html" target="_blank">Про нас</a></li>
+						<li><a href="Контакти.html" target="_blank">Контакти</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<script>
+	window.onscroll = function() {
+		scrollFunction()
+	} 
+	function scrollFunction() {
+		let scrollPos = 200;
+		let header = document.getElementById('header')
+		if(document.body.scrollTop > scrollPos || document.documentElement.scrollTop > scrollPos) {
+			header.classlist.add('active');
+		} else {
+			header.classlist.remove('active')
+		}
+	}
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="title">
+	<h4>Корти</h4>
+	<div class="cards">
+		<div class="container">
+			<div class="card1 cards1">
+				<div class="card-img">
+					<img class='card-img' src="media/3.png">
+				</div>
+				<div class="card-btn btn1">
+					<button onclick="document.location='Контакти.html'">300 грн/год</button>
+				</div>
+			</div>
+
+
+			<div class="card2 cards1">
+				<div class="card-img">
+					<img class='card-img' src="media/4.png">
+				</div>
+				<div class="card-btn btn1">
+					<p><button onclick="document.location='Контакти.html'">250 грн/год</button>
+					</p>
+				</div>
+			</div>
+
+
+			<div class="card cards1">
+				<div class="card-img">
+					<img class='card-img' src="media/5.png">
+				</div>
+				<div class="card-btn btn1">
+					<p><button onclick="document.location='Контакти.html'">150 грн/год</button>
+					</p>
+				</div>
+			</div>
+			<div class="card2 cards1">
+				<div class="card-img">
+					<img class='card-img' src="media/6.png">
+				</div>
+				<div class="card-btn btn1">
+					<p><button onclick="document.location='Контакти.html'">200 грн/год</button>
+					</p>
+				</div>
+			</div>
+
+
+			<div class="card cards1">
+				<div class="card-img">
+					<img class='card-img' src="media/7.png">
+				</div>
+				<div class="card-btn btn1">
+					<p><button onclick="document.location='Контакти.html'">300 грн/год</button>
+					</p>
+				</div>
+			</div>
+
+			<div class="card8 cards1">
+				<div class="card-img">
+					<img class='card-img' src="media/8.png">
+				</div>
+				<div class="card-btn btn1">
+					<p><button onclick="document.location='Контакти.html'">250 грн/год</button>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
